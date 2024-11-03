@@ -30,14 +30,7 @@ function InfoAdmin(){
                 const response1 = await axios.post('https://ganaloco-back-vert.vercel.app/apiv1/info_admin_tabla1');
                 setDatosTabla1(response1.data);
 
-                //const response2 = await axios.post('https://ganaloco-back-vert.vercel.app/apiv1/info_admin_tabla2');
-                //setDatosTabla2(response2.data);
-
-                //const response3 = await axios.post('https://ganaloco-back-vert.vercel.app/apiv1/info_admin_tabla3');
-                //setDatosTabla3(response3.data);
-
-                //const response4 = await axios.post('https://ganaloco-back-vert.vercel.app/apiv1/info_admin_tabla4');
-                //setDatosTabla4(response4.data);
+    
 
             } catch (error) {
                 console.error(error);

@@ -21,7 +21,7 @@ function InfoUser(){
         
         const handleLogout = () => {
             localStorage.clear();
-            window.location = 'https://gana-front.vercel.app'
+            window.location = 'https://ganaloco-front-khaki.vercel.app'
         };
 
         //---------------------------- Obtengo la información de la tabla y del usuario ------------------------- Terminao 
