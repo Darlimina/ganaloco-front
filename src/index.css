@@ -1,0 +1,48 @@
+.card{
+  margin-top: -100px;
+  backdrop-filter: blur(30px);
+}
+.p-5{
+  background-image: url('https://img.freepik.com/free-vector/blue-curve-frame-template_53876-114605.jpg');
+  height: 100px;
+}
+
+.barra{
+  background-color: #fcd5ee ;
+}
+.colortabla{
+  background-color: #fcd5ee ;
+}
+
+.modal {
+  background: white;
+  padding: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  max-width: 250px;
+  width: 100%;
+}
+
+.modal-content {
+  text-align: center;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.form-container {
+  background-color: #1a272c;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+}

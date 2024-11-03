@@ -1,0 +1,99 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container */
+.container-fluid {
+    background-color: #f8f9fa;
+    padding: 2rem 1rem;
+}
+
+/* Card Style */
+.card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+/* Title Styles */
+h3 {
+    font-size: 1.75rem;
+    color: #333;
+    font-weight: 700;
+}
+
+.blue-text {
+    color: #007bff;
+    font-size: 1rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+    color: #444;
+    margin-bottom: 1.5rem;
+}
+
+/* Label and Input */
+.form-control-label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #333;
+}
+
+input[type="email"],
+input[type="password"] {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 0.75rem;
+    font-size: 1rem;
+    color: #495057;
+    transition: border-color 0.2s;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
+}
+
+input::placeholder {
+    color: #6c757d;
+}
+
+/* Button */
+.btn {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Error Message */
+.text-danger {
+    color: #dc3545;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .container-fluid {
+        padding: 1rem;
+    }
+    .card {
+        padding: 1.5rem;
+    }
+}
