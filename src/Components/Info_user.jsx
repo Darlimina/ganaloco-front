@@ -223,7 +223,7 @@ function InfoUser(){
 
     }else{
         //Se redirecciona al login si no existe una varia de usuario valida 
-        window.location= 'https://gana-front.vercel.app'
+        window.location= 'https://ganaloco-front-khaki.vercel.app'
     }
 }
 

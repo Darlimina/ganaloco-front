@@ -62,8 +62,8 @@ function Login(){
 
     const nuevousuario = () => {
         Navigate("/NewUser")
-        //window.location = 'https://gana-front.vercel.app'
-    };
+        //window.location = 'https://ganaloco-front-khaki.vercel.app'
+          };
 
     return (
     <>

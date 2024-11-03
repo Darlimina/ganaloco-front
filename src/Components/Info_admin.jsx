@@ -19,7 +19,7 @@ function InfoAdmin(){
 
         const handleLogout = () => {
             localStorage.clear();
-            window.location = 'https://gana-front.vercel.app'
+            window.location = 'https://ganaloco-front-khaki.vercel.app'
         };
 
         useEffect(() => {
@@ -172,7 +172,7 @@ function InfoAdmin(){
 
     }else{
         //Se redirecciona al login si no existe una varia de usuario valida 
-        window.location= 'https://gana-front.vercel.app' // ruta de ront
+        window.location= 'https://ganaloco-front-khaki.vercel.app' // ruta de ront
     }
 }
 
